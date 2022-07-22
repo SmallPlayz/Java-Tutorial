@@ -1,7 +1,15 @@
 body {
-    background-image: url(background.jpg);
-    background-size: cover;
-    background-position: top center;
+  margin: 0;
+  height: auto;
+}
+#top {
+  background-image: url(/background.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 725px;
+  position: relative;
 }
 #home {
     margin-top: 100px;
@@ -23,9 +31,10 @@ body {
 #startButton {
     position: absolute;
     font-size: 30px;
-    right: 25px;
-    top: 105px;
+    right:35px;
+    top: 110px;
     border: none;
+    font-family: "Helvetica Neue",Helvetica,Arial;
 }
 .button{
     position: relative;
@@ -75,3 +84,19 @@ body {
   .button:active {
     top: 1px;
   }
+
+/* ********************************** */
+
+#middle {
+  /*
+  background-image: url(/background.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  */
+  background-color: #3A3A3A;
+  width: auto;
+  height: 200px;
+  position: relative;
+  color: #ffffff;
+}
